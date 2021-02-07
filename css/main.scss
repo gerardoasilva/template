@@ -200,6 +200,12 @@ input, textarea {
   box-sizing: border-box;
 }
 
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 input[type="submit"] {
   background-color: var(--primary-color);
   color: #FFF;
@@ -212,6 +218,7 @@ input[type="submit"] {
   padding: .8em 2em;
   width: unset;
   cursor: pointer;
+  opacity: 1;
 }
 
 iframe {
@@ -370,14 +377,6 @@ nav {
   .features-section {
     position: relative;
   }
-
-  // .features-section img {
-  //   display: block;
-  //   position: absolute;
-  //   right: 0;
-  //   width: 350px;
-  //   bottom: -2em;
-  // }
 
   .testimonials-section ul {
     display: flex;
