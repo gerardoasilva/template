@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deona</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="navbar" id="navbar">
+    <div class="container">
+      <a class="logo" href="#navbar">D<span>eona</span></a>
+
+      <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open navigation">
+
+      <nav>
+
+        <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close navigation">
+        <ul class="primary-nav">
+          <li class="current"><a href="#hero">Inicio</a></li>
+          <li><a href="#features">Quiénes somos</a></li>
+          <li><a href="#testimonials">Servicios</a></li>
+        </ul>
+
+        <ul class="secondary-nav">
+          <li class="contact-cta"><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <button id="btnScrollToTop" class="to-top">
+    <i class="material-icons">arrow_upward</i>
+  </button>
+
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="left-col">
+        <p class="subhead">Et lorem &amp; ipsum</p>
+        <h1>Lorem ipsum dolor sit amet</h1>
+
+        <div class="hero-cta">
+          <a href="#" class="primary-cta">Contactar</a>
+        </div>
+      </div>
+
+      <img src="images/illustration.svg" class="hero-img" alt="Illustration">
+    </div>
+  </section>
+
+  <section class="features-section" id="features">
+    <div class="container">
+      <ul class="features-list">
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem sit amet consectetur adipisicing elit. Qui, facere!</li>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing.</li>
+      </ul>
+
+      <img src="images/phone.jpg" alt="Man holding phone">
+    </div>
+  </section>
+
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <ul>
+        <li>
+          <img src="images/person.jpg" alt="Person">
+          <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consectetur animi, dolor est
+            saepe perspiciatis soluta praesentium sunt placeat, ad quidem. Eaque dignissimos facilis laboriosam?"
+          </blockquote>
+          <cite>- Jane Doe</cite>
+        </li>
+        <li>
+          <img src="images/person.jpg" alt="Person">
+          <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consectetur animi, dolor est
+            saepe perspiciatis soluta praesentium sunt placeat, ad quidem. Eaque dignissimos facilis laboriosam?"
+          </blockquote>
+          <cite>- Jane Doe</cite>
+        </li>
+        <li>
+          <img src="images/person.jpg" alt="Person">
+          <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consectetur animi, dolor est
+            saepe perspiciatis soluta praesentium sunt placeat, ad quidem. Eaque dignissimos facilis laboriosam?"
+          </blockquote>
+          <cite>- Jane Doe</cite>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-left">
+        <h2>Contacto</h2>
+
+        <form action="">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name">
+
+          <label for="email">Correo electrónico</label>
+          <input type="email" name="email" id="email">
+
+          <label for="message">Mensaje</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+          <input type="submit" class="send-message-cta" value="Send message">
+        </form>
+      </div>
+
+      <div class="contact-right">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.28950512124!2d-74.2605406471146!3d40.69766841354198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2smx!4v1612632387387!5m2!1sen!2smx"
+          width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
