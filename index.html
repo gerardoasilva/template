@@ -7,12 +7,14 @@
   <title>Deona</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="css/main.css">
+  <script src="https://kit.fontawesome.com/ee013fee7d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+  <!-- Navbar -->
   <div class="navbar" id="navbar">
     <div class="container">
-      <a class="logo" href="#navbar">D<span>eona</span></a>
+      <a class="logo" href="#"><img src="images/logo.png" alt="Logo de Deona"></a>
 
       <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open navigation">
 
@@ -20,77 +22,116 @@
 
         <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close navigation">
         <ul class="primary-nav">
-          <li class="current"><a href="#hero">Inicio</a></li>
-          <li><a href="#features">Quiénes somos</a></li>
-          <li><a href="#testimonials">Servicios</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contacto</a></li>
         </ul>
 
-        <ul class="secondary-nav">
+        <!-- <ul class="secondary-nav">
           <li class="contact-cta"><a href="#contact">Contacto</a></li>
-        </ul>
+        </ul> -->
       </nav>
     </div>
   </div>
 
+  <!-- Scroll to top -->
   <button id="btnScrollToTop" class="to-top">
     <i class="material-icons">arrow_upward</i>
   </button>
 
+  <!-- Hero -->
   <section class="hero" id="hero">
     <div class="container">
-      <div class="left-col">
-        <p class="subhead">Et lorem &amp; ipsum</p>
-        <h1>Lorem ipsum dolor sit amet</h1>
-
-        <div class="hero-cta">
-          <a href="#" class="primary-cta">Contactar</a>
-        </div>
-      </div>
-
-      <img src="images/illustration.svg" class="hero-img" alt="Illustration">
+      <h1>Innovando en la <span>nutrión</span> de tu empresa.</h1>
     </div>
   </section>
 
+  <!-- Features -->
   <section class="features-section" id="features">
     <div class="container">
-      <ul class="features-list">
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem ipsum dolor sit amet consectetur.</li>
-        <li>Lorem ipsum dolor sit.</li>
-        <li>Lorem sit amet consectetur adipisicing elit. Qui, facere!</li>
-        <li>Lorem ipsum dolor sit.</li>
-        <li>Lorem, ipsum dolor sit amet consectetur adipisicing.</li>
-      </ul>
 
-      <img src="images/phone.jpg" alt="Man holding phone">
+      <h1>Lo que hacemos</h1>
+      <div class="features-container">
+        <div class="feature-item">
+          <i class="far fa-clock"></i>
+          <h2>The feature's name</h2>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-utensils"></i>
+          <h2>The feature's name</h2>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-box"></i>
+          <h2>The feature's name</h2>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-award"></i>
+          <h2>The feature's name</h2>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="testimonials-section" id="testimonials">
+  <section class="about-section" id="about">
     <div class="container">
-      <ul>
-        <li>
-          <img src="images/person.jpg" alt="Person">
-          <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consectetur animi, dolor est
-            saepe perspiciatis soluta praesentium sunt placeat, ad quidem. Eaque dignissimos facilis laboriosam?"
-          </blockquote>
-          <cite>- Jane Doe</cite>
-        </li>
-        <li>
-          <img src="images/person.jpg" alt="Person">
-          <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consectetur animi, dolor est
-            saepe perspiciatis soluta praesentium sunt placeat, ad quidem. Eaque dignissimos facilis laboriosam?"
-          </blockquote>
-          <cite>- Jane Doe</cite>
-        </li>
-        <li>
-          <img src="images/person.jpg" alt="Person">
-          <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consectetur animi, dolor est
-            saepe perspiciatis soluta praesentium sunt placeat, ad quidem. Eaque dignissimos facilis laboriosam?"
-          </blockquote>
-          <cite>- Jane Doe</cite>
-        </li>
-      </ul>
+      <div class="about-left-col">
+        <h5>Nosotros</h5>
+        <p>Somos una empresa mexicana especializada en servicio de comedres industriales con el objetivo de ofrecer
+          calidad, variedad y sabor en los alimentos cumpliendo con estándares de servicio y calidad.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae hic dignissimos animi quia laborum cupiditate,
+          deserunt, est quam, inventore dolorum atque veniam? Veniam, quasi aut.</p>
+      </div>
+      <div class="about-img">
+        <img src="images/phone.jpg" alt="Personal Deona">
+      </div>
+    </div>
+  </section>
+
+  <section class="goal-phrase">
+    <div class="container">
+      <h2>Nos enfocamos en diseñear un menú especializado para satisfacer toda clase de demanda.</h2>
+    </div>
+  </section>
+
+  <div class="services-image">
+    <img src="images/phone.jpg" alt="Comedor Deona">
+  </div>
+
+  <section class="services">
+    <div class="container">
+      <h5>Servicios</h5>
+
+      <div class="service-item">
+        <h2>Una frase de comedores</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, a enim auctor neque cursus. Ultrices quam
+          urna turpis ac ut non, quam.</p>
+        <p>Aliquam non vitae condimentum vestibulum fusce id aliquam eget. Quis eleifend morbi amet risus non amet.
+          Consequat leo natoque erat dignissim faucibus urna, aliquet.</p>
+        <img src="images/illustration.svg" alt="Imagen de comida">
+      </div>
+
+      <div class="service-item">
+        <h2>Una frase de cafetería</h2>
+        <p>Rhoncus nisl pulvinar penatibus sed adipiscing. Et ullamcorper amet nunc, ac habitasse porttitor hac varius.
+          Mollis consequat lectus est vel arcu, viverra tellus nulla. Aliquet arcu ligula imperdiet velit quam.</p>
+        <img src="images/illustration.svg" alt="Imagen de cafetería">
+      </div>
+
+      <div class="service-item">
+        <h2>Una frase de eventos especiales</h2>
+        <p>Rhoncus nisl pulvinar penatibus sed adipiscing. Et ullamcorper amet nunc, ac habitasse porttitor hac varius.
+          Mollis consequat lectus est vel arcu, viverra tellus nulla. Aliquet arcu ligula imperdiet velit quam.</p>
+        <img src="images/illustration.svg" alt="Imagen de comida">
+      </div>
+    </div>
+  </section>
+
+  <section class="call-section" id="call-section">
+    <div class="container">
+      <div class="card">
+        <h3>¿Necesitas ayuda de comedores industriales?</h3>
+        <button>Pide tu cotización</button>
+      </div>
     </div>
   </section>
 
