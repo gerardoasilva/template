@@ -4,6 +4,12 @@ function init() {
     nav = document.querySelector("nav"),
     mobileBtnExit = document.getElementById("mobile-exit");
 
+  // var image = document.getElementsByClassName("img-separator-1");
+  // new simpleParallax(image);
+
+  var images = document.querySelectorAll(".img-separator");
+  new simpleParallax(images);
+
   // Open side menu - mobile
   mobileBtn.addEventListener("click", () => {
     nav.classList.add("menu-btn");
